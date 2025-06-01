@@ -1,0 +1,371 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="twenty">
+        <!-- Slider -->
+        <div class="slideshow-container">
+          <div class="mySlides fade">
+            <img src="media/1.jpg" />
+          </div>
+
+          <div class="mySlides fade">
+            <img src="media/2.jpg" />
+          </div>
+
+          <div class="mySlides fade">
+            <img src="media/3.jpg" />
+          </div>
+
+          <div class="mySlides fade">
+            <img src="media/4.jpg" />
+          </div>
+
+          <div class="mySlides fade">
+            <img src="media/5.jpg" />
+          </div>
+        </div>
+      </div>
+
+      <div class="eighty">
+        <!-- Tabs -->
+        <div class="tab">
+          <button
+            class="tablinks"
+            onclick="openCity(event, 'abt')"
+            id="defaultOpen"
+          >
+            About me
+          </button>
+          <button class="tablinks" onclick="openCity(event, 'qua')">
+            Qualifications
+          </button>
+          <button class="tablinks" onclick="openCity(event, 'skl')">
+            Skills
+          </button>
+          <button class="tablinks" onclick="openCity(event, 'hob')">
+            Hobbies
+          </button>
+          <button class="tablinks" onclick="openCity(event, 'proj')">
+            Projects
+          </button>
+          <button class="tablinks" onclick="openCity(event, 'prof')">
+            Profiles
+          </button>
+          <button class="tablinks" onclick="openCity(event, 'qot')">
+            Quotes
+          </button>
+        </div>
+
+        <!-- Tab contents -->
+
+        <!-- About section -->
+        <div id="abt" class="tabcontent">
+          <p class="big">&lt; Hello World &gt;</p>
+          <p class="desc">This is Sadman Joy</p>
+          <br />
+          Whether it's - <br />
+          <li style="list-style: circle; margin-left: 3rem">Researching 🔎</li>
+          <li style="list-style: circle; margin-left: 3rem">Creating 👨‍💻</li>
+          <li style="list-style: circle; margin-left: 3rem">Securing 🔐</li>
+          <br />
+          I mainly love learning new things and solving problems.
+
+          <br /><br />
+          <p>God gifted talent : Sharp sense of taste 😋</p>
+          <br />
+          <p
+            style="
+              text-align: center;
+              background-color: white;
+              color: rgb(10, 16, 38);
+            "
+          >
+            This website is built with pure HTML, CSS and Javascript
+          </p>
+        </div>
+
+        <!-- Qualification section -->
+        <div id="qua" class="tabcontent">
+          <br />
+          <li>
+            <i class="fa-solid fa-graduation-cap"></i> Background - Science
+          </li>
+          <li><i class="fa-solid fa-graduation-cap"></i> BSc - CSE</li>
+          <li>
+            <i class="fa-solid fa-graduation-cap"></i> Electrical Wiring -
+            Government course :
+          </li>
+          <br />
+          <img class="paper" src="" alt="" />
+          <li>
+            <i class="fa-solid fa-graduation-cap"></i> Cybersecurity - Private
+            course :
+          </li>
+          <br />
+          <img class="paper" src="" alt="" />
+        </div>
+
+        <!-- Skills section -->
+        <div id="skl" class="tabcontent">
+          <br />
+          <p class="heading2">I love gaining skills</p>
+
+          <!-- Skill -->
+          <div class="skill-grid">
+            <div class="category">Design</div>
+            <div class="tags">
+              <span class="tag">Photoshop</span>
+              <span class="tag">Canva</span>
+              <span class="tag">Figma</span>
+            </div>
+
+            <div class="category">Languages</div>
+            <div class="tags">
+              <span class="tag">Python</span>
+              <span class="tag">JavaScript</span>
+            </div>
+
+            <div class="category">Frontend stacks</div>
+            <div class="tags">
+              <span class="tag">HTML</span>
+              <span class="tag">CSS</span>
+              <span class="tag">JavaScript</span>
+              <span class="tag">Streamlit</span>
+            </div>
+
+            <div class="category">Backend stacks</div>
+            <div class="tags">
+              <span class="tag">Django</span>
+              <span class="tag">MySQL</span>
+            </div>
+
+            <div class="category">Security</div>
+            <div class="tags">
+              <span class="tag">Cryptography</span>
+              <span class="tag">Problem Solving</span>
+              <span class="tag">Digital Forensic</span>
+            </div>
+
+            <div class="category">Hardware</div>
+            <div class="tags">
+              <span class="tag">Electronics</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Hobby section -->
+        <div id="hob" class="tabcontent">
+          <br />
+          <p class="heading2">Hobby defines personality</p>
+          <p>Click to see details</p>
+          <details>
+            <summary><i class="fa-solid fa-brain"></i> Research</summary>
+            <p>
+              Sharpens critical thinking, deepens knowledge, and enhances
+              problem-solving skills.
+            </p>
+          </details>
+
+          <details>
+            <summary><i class="fa-solid fa-van-shuttle"></i> Traveling</summary>
+            <p>
+              Broadens perspective, reduces stress, and boosts creativity
+              through new experiences.
+            </p>
+          </details>
+
+          <details>
+            <summary><i class="fa-solid fa-car"></i> Driving</summary>
+            <p>
+              Improves focus, independence, and can serve as a meditative
+              escape.
+            </p>
+          </details>
+
+          <details>
+            <summary><i class="fa-solid fa-camera"></i> Photography</summary>
+            <p>
+              Enhances creativity, mindfulness, and helps capture meaningful
+              moments.
+            </p>
+          </details>
+
+          <details>
+            <summary>
+              <i class="fa-solid fa-chess-knight"></i> Chess game
+            </summary>
+            <p>Boosts memory, strategic thinking, and mental discipline.</p>
+          </details>
+
+          <details>
+            <summary><i class="fa-solid fa-plug"></i> Electronics</summary>
+            <p>Builds hands-on technical skills and fosters innovation.</p>
+          </details>
+
+          <details>
+            <summary>
+              <i class="fa-solid fa-user-ninja"></i> Martial arts
+            </summary>
+            <p>Improves fitness, self-discipline, and mental resilience.</p>
+          </details>
+
+          <details>
+            <summary>
+              <i class="fa-solid fa-list-check"></i> Learning new things
+            </summary>
+            <p>
+              Keeps the brain active, promotes personal growth, and boosts
+              adaptability.
+            </p>
+          </details>
+
+          <br />
+
+          <span style="font-weight: bolder; color: rgb(251, 71, 71)"
+            >Dislikes :</span
+          >Bad politics, Useless gossip, Comparing
+        </div>
+
+        <!-- Projects section -->
+        <div id="proj" class="tabcontent">
+          <br />
+          <p class="heading2">Some of my hobby projects</p>
+          <li>
+            <i class="fa-solid fa-diagram-project"></i>
+            <a
+              href="https://github.com/Sadman-Joy?tab=repositories"
+              target="_blank"
+              >Check my github repositories ...👉</a
+            >
+          </li>
+          <p
+            style="
+              text-align: center;
+              background-color: white;
+              color: rgb(10, 16, 38);
+            "
+          >
+            This website is built with pure HTML, CSS and Javascript
+          </p>
+        </div>
+
+        <!-- Profile section -->
+        <div id="prof" class="tabcontent">
+          <br />
+          <p class="heading2">Ways to contact me</p>
+
+          <li>
+            <a href="" target="_blank" style="pointer-events: none"
+              ><span class=""
+                ><i class="fa-solid fa-envelope"></i>
+                gotojoysaddress@gmail.com</span
+              ></a
+            >
+          </li>
+          <li>
+            <a href="https://github.com/Sadman-Joy" target="_blank"
+              ><span class=""
+                ><i class="fa-brands fa-github"></i> github</span
+              ></a
+            >
+          </li>
+
+          <li>
+            <a href="https://www.linkedin.com/in/sadmanjoy/" target="_blank"
+              ><span class=""
+                ><i class="fa-brands fa-linkedin"></i> Linkedin</span
+              ></a
+            >
+          </li>
+
+          <li>
+            <a
+              href="https://www.facebook.com/profile.php?id=61561882076679"
+              target="_blank"
+              ><span class=""
+                ><i class="fa-brands fa-facebook"></i> Facebook</span
+              ></a
+            >
+          </li>
+          <li>
+            <a href="https://x.com/Sadman_joy01" target="_blank"
+              ><span class=""><i class="fa-solid fa-x"></i> X</span></a
+            >
+          </li>
+          <li>
+            <a href="https://www.instagram.com/sadmanjoy01/" target="_blank"
+              ><span class=""
+                ><i class="fa-brands fa-instagram"></i> Instagram</span
+              ></a
+            >
+          </li>
+          <li>
+            <a href="" target="_blank"
+              ><span class=""
+                ><i class="fa-brands fa-youtube"></i> Youtube channel</span
+              ></a
+            >
+          </li>
+          <li>
+            <a href="https://www.chess.com/member/sadmanjoy01" target="_blank"
+              ><span class=""
+                ><i class="fa-solid fa-chess-knight"></i> Chess (You can play
+                with me online)</span
+              ></a
+            >
+          </li>
+
+          <li>
+            <a href="" target="_blank" style="pointer-events: none"
+              ><span class=""
+                ><i class="fa-brands fa-square-whatsapp"></i> Whatsapp -
+                01734263770</span
+              ></a
+            >
+          </li>
+        </div>
+
+        <!-- Quotes section -->
+        <div id="qot" class="tabcontent qotdes">
+          <br />
+          <p class="heading2">Some of my favourite quotes</p>
+          <p>
+            “Anyone who has never made a mistake has never tried anything new.”
+            - Albert Einstein
+          </p>
+          <p>
+            “Heroes are made by the paths they choose, not the powers they are
+            graced with.” — Tony Stark: Iron Man
+          </p>
+          <p>
+            “Absorb what is useful, Discard what is not, Add what is uniquely
+            your own.” - Bruce Lee (Legend of martial arts)
+          </p>
+          <p>
+            “Before you judge me, make sure you're perfect.” - Clint Eastwood
+          </p>
+          <p>
+            “Don't compare yourself with others. Everyone has their own role to
+            play.”
+          </p>
+        </div>
+      </div>
+      <br />
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
